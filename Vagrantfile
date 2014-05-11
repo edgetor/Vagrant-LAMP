@@ -53,7 +53,7 @@ Vagrant.configure("2") do |config|
 
     # Povision using Chef Solo
     config.vm.provision :chef_solo do |chef|
-        chef.add_recipe "lamp::server"
+        chef.add_recipe "lamp::default"
         chef.add_recipe "memcached"
         chef.add_recipe "postfix"
         chef.add_recipe "phpunit"
