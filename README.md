@@ -20,7 +20,7 @@ A Vagrant script designed for a basic LAMP setup.
 ---
 ## Installation
 * `$ cd projectname`
-* `$ curl -O https://raw.github.com/edgetor/Vagrant-LAMP/master/\{Vagrantfile,Berksfile\}`
+* `$ curl -O https://raw.githubusercontent.com/edgetor/Vagrant-LAMP/master/\{Vagrantfile,Berksfile\}`
 * Edit Vagrantfile
   * Set Host-only network IP (ip\_address)
   * Set Project Name IP (project\_name)
