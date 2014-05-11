@@ -31,7 +31,7 @@ Host file modified to point project at [http://projectname.local](http://project
 
 ---
 ## Installed software
-* Ubuntu Precise base box (Should work with other operating systems with few or no changes)
+* Ubuntu Trusty
 * Apache **2.4**
 * MySQL
 * PHP **5.5** (with apcu, mysql, curl, mcrypt, memcached, gd)
