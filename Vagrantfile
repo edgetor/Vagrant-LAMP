@@ -55,7 +55,6 @@ Vagrant.configure("2") do |config|
     config.vm.provision :chef_solo do |chef|
         chef.add_recipe "lamp::server"
         chef.add_recipe "memcached"
-        chef.add_recipe "postgresql::server"
         chef.add_recipe "postfix"
         chef.add_recipe "phpunit"
         chef.add_recipe "mysql::client"
